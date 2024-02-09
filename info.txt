@@ -1,0 +1,62 @@
+anithaboddu@Anithas-MBP react18_pract % pwd
+/Users/anithaboddu/Documents/2024_practice/react18_pract
+anithaboddu@Anithas-MBP react18_pract % node -v
+v20.11.0
+anithaboddu@Anithas-MBP react18_pract % npm create vite@4.1.0
+npm ERR! code EACCES
+npm ERR! syscall open
+npm ERR! path /Users/anithaboddu/.npm/_cacache/tmp/e8b230b9
+npm ERR! errno -13
+npm ERR! 
+npm ERR! Your cache folder contains root-owned files, due to a bug in
+npm ERR! previous versions of npm which has since been addressed.
+npm ERR! 
+npm ERR! To permanently fix this problem, please run:
+npm ERR!   sudo chown -R 501:20 "/Users/anithaboddu/.npm"
+
+npm ERR! A complete log of this run can be found in: /Users/anithaboddu/.npm/_logs/2024-01-12T21_18_01_268Z-debug-0.log
+anithaboddu@Anithas-MBP react18_pract % sudo npm create vite@4.1.0
+Password:
+Need to install the following packages:
+create-vite@4.1.0
+Ok to proceed? (y) y
+✔ Project name: … react-app
+✔ Select a framework: › React
+✔ Select a variant: › TypeScript
+
+Scaffolding project in /Users/anithaboddu/Documents/2024_practice/react18_pract/react-app...
+
+Done. Now run:
+
+  cd react-app
+  npm install
+  npm run dev
+
+anithaboddu@Anithas-MBP react18_pract % ls
+react-app
+anithaboddu@Anithas-MBP react18_pract % cd react-app 
+
+
+To install react hook form for easy handling of Form fields in React:
+anithaboddu@Anithas-MBP react-app % sudo npm i react-hook-form@7.43
+
+To install zod to do schema based validation:
+anithaboddu@Anithas-MBP react-app % npm i zod@3.20.6
+
+This below library includes resolvers for various schema based validation libraries like zod, joy, etc.
+anithaboddu@Anithas-MBP react-app % sudo npm i @hookform/resolvers@2.9.11
+
+
+
+
+
+************************************************
+
+SHORTCUTS
+
+rafce - for react arrow function export compenent CODE generator
+
+
+************************************************
+
+
